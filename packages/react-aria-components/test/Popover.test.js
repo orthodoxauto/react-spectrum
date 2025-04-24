@@ -13,7 +13,7 @@
 import {act, pointerMap, render} from '@react-spectrum/test-utils-internal';
 import {Button, Dialog, DialogTrigger, OverlayArrow, Popover, Pressable} from '../';
 import React, {useRef} from 'react';
-import {UNSAFE_PortalProvider} from '@react-aria/overlays';
+import {UNSAFE_PortalProvider} from '@orthodoxauto/overlays';
 import userEvent from '@testing-library/user-event';
 
 let TestPopover = (props) => (

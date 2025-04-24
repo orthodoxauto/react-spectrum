@@ -19,7 +19,7 @@ import {
   useFocusRing,
   useHover,
   useId
-} from 'react-aria';
+} from '@orthodoxauto/react-aria';
 import {
   ContextValue,
   RenderProps,

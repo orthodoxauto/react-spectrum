@@ -7,7 +7,7 @@ import {filterDOMProps} from '@react-aria/utils';
 import intlMessages from '../intl/*.json';
 import {ListBox, ListBoxItem, ListBoxItemRenderProps, ListBoxRenderProps} from './ListBox';
 import React, {createContext, ForwardedRef, forwardRef, ReactNode, useContext, useEffect, useMemo} from 'react';
-import {useLocale, useLocalizedStringFormatter} from 'react-aria';
+import {useLocale, useLocalizedStringFormatter} from '@orthodoxauto/react-aria';
 
 export interface ColorSwatchPickerRenderProps extends Omit<ListBoxRenderProps, 'isDropTarget'> {}
 export interface ColorSwatchPickerProps extends ValueBase<string | Color, Color>, AriaLabelingProps, StyleRenderProps<ColorSwatchPickerRenderProps> {

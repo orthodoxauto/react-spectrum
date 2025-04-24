@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaColorFieldProps, useColorChannelField, useColorField, useLocale} from 'react-aria';
+import {AriaColorFieldProps, useColorChannelField, useColorField, useLocale} from '@orthodoxauto/react-aria';
 import {ColorChannel, ColorFieldState, ColorSpace, useColorChannelFieldState, useColorFieldState} from 'react-stately';
 import {ColorFieldContext} from './RSPContexts';
 import {FieldErrorContext} from './FieldError';

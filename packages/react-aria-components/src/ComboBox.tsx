@@ -9,7 +9,7 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-import {AriaComboBoxProps, useComboBox, useFilter} from 'react-aria';
+import {AriaComboBoxProps, useComboBox, useFilter} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {Collection, ComboBoxState, Node, useComboBoxState} from 'react-stately';
 import {CollectionBuilder} from '@react-aria/collections';

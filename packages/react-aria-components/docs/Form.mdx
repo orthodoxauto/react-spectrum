@@ -343,7 +343,7 @@ You can also consume `FormValidationContext` in your own custom form input compo
 ```tsx example
 import type {SelectHTMLAttributes} from 'react';
 import {useContext} from 'react';
-import {useId} from 'react-aria';
+import {useId} from '@orthodoxauto/react-aria';
 
 function NativeSelect(props: SelectHTMLAttributes<HTMLSelectElement> & {label: string}) {
   let errors = useContext(FormValidationContext);

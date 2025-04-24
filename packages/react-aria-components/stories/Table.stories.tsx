@@ -12,7 +12,7 @@
 
 import {action} from '@storybook/addon-actions';
 import {Button, Cell, Checkbox, CheckboxProps, Collection, Column, ColumnProps, ColumnResizer, Dialog, DialogTrigger, DropIndicator, Heading, Menu, MenuTrigger, Modal, ModalOverlay, Popover, ResizableTableContainer, Row, Table, TableBody, TableHeader, TableLayout, useDragAndDrop, Virtualizer} from 'react-aria-components';
-import {isTextDropItem} from 'react-aria';
+import {isTextDropItem} from '@orthodoxauto/react-aria';
 import {MyMenuItem} from './utils';
 import React, {Suspense, useMemo, useRef, useState} from 'react';
 import styles from '../example/index.css';

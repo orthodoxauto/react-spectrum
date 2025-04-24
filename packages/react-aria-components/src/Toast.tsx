@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaToastProps, AriaToastRegionProps, mergeProps, useFocusRing, useHover, useLocale, useToast, useToastRegion} from 'react-aria';
+import {AriaToastProps, AriaToastRegionProps, mergeProps, useFocusRing, useHover, useLocale, useToast, useToastRegion} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {ContextValue, DEFAULT_SLOT, Provider, RenderProps, StyleRenderProps, useContextProps, useRenderProps} from './utils';
 import {createPortal} from 'react-dom';
@@ -20,7 +20,7 @@ import React, {createContext, ForwardedRef, forwardRef, HTMLAttributes, JSX, Rea
 import {TextContext} from './Text';
 import {useIsSSR} from '@react-aria/ssr';
 import {useObjectRef} from '@react-aria/utils';
-import {useUNSAFE_PortalContext} from '@react-aria/overlays';
+import {useUNSAFE_PortalContext} from '@orthodoxauto/overlays';
 
 export const ToastStateContext = createContext<ToastState<any> | null>(null);
 

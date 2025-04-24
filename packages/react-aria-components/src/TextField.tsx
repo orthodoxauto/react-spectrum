@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaTextFieldProps, useTextField} from 'react-aria';
+import {AriaTextFieldProps, useTextField} from '@orthodoxauto/react-aria';
 import {ContextValue, DOMProps, Provider, RACValidation, removeDataAttributes, RenderProps, SlotProps, useContextProps, useRenderProps, useSlot, useSlottedContext} from './utils';
 import {createHideableComponent} from '@react-aria/collections';
 import {FieldErrorContext} from './FieldError';

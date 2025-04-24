@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaNumberFieldProps, useLocale, useNumberField} from 'react-aria';
+import {AriaNumberFieldProps, useLocale, useNumberField} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {ContextValue, Provider, RACValidation, removeDataAttributes, RenderProps, SlotProps, useContextProps, useRenderProps, useSlot, useSlottedContext} from './utils';
 import {FieldErrorContext} from './FieldError';

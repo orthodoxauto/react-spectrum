@@ -372,7 +372,7 @@ This example shows a `CheckboxDescription` component that accepts a checkbox in 
 
 ```tsx example
 import {CheckboxContext} from 'react-aria-components';
-import {useId} from 'react-aria';
+import {useId} from '@orthodoxauto/react-aria';
 
 interface CheckboxDescriptionProps {
   children?: React.ReactNode,
@@ -406,7 +406,7 @@ If you need to customize things further, such as intercepting events or customiz
 import type {CheckboxProps} from 'react-aria-components';
 import {CheckboxContext, useContextProps} from 'react-aria-components';
 import {useToggleState} from 'react-stately';
-import {useCheckbox} from 'react-aria';
+import {useCheckbox} from '@orthodoxauto/react-aria';
 
 const MyCheckbox = React.forwardRef((props: CheckboxProps, ref: React.ForwardedRef<HTMLInputElement>) => {
   // Merge the local props and ref with the ones provided via context.

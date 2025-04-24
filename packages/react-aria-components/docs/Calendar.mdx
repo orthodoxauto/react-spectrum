@@ -496,7 +496,7 @@ This example validates that the selected date is a weekday and not a weekend acc
 
 ```tsx example
 import {today, isWeekend} from '@internationalized/date';
-import {useLocale} from 'react-aria';
+import {useLocale} from '@orthodoxauto/react-aria';
 
 function Example() {
   let [date, setDate] = React.useState(today(getLocalTimeZone()));
@@ -834,7 +834,7 @@ Now you can combine a `Calendar` and one or more `Preset` components in a `Calen
 
 ```tsx example
 import {startOfWeek, startOfMonth} from '@internationalized/date';
-import {useLocale} from 'react-aria';
+import {useLocale} from '@orthodoxauto/react-aria';
 
 function Example() {
   let {locale} = useLocale();
@@ -906,7 +906,7 @@ This example shows a `CalendarValue` component that can be placed within a `Cale
 
 ```tsx example
 import {CalendarStateContext} from 'react-aria-components';
-import {useDateFormatter} from 'react-aria';
+import {useDateFormatter} from '@orthodoxauto/react-aria';
 
 function CalendarValue() {
   /*- begin highlight -*/
@@ -942,7 +942,7 @@ This example uses the <TypeLink links={ariaDocs.links} type={ariaDocs.exports.us
 ```tsx example render=false export=true
 import type {CalendarGridProps} from 'react-aria-components';
 import {CalendarStateContext} from 'react-aria-components';
-import {useCalendarGrid} from 'react-aria';
+import {useCalendarGrid} from '@orthodoxauto/react-aria';
 
 function WeekCalendarGrid(props: CalendarGridProps) {
   let state = React.useContext(CalendarStateContext)!;

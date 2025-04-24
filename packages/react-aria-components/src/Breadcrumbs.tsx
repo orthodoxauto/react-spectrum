@@ -9,7 +9,7 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-import {AriaBreadcrumbsProps, useBreadcrumbs} from 'react-aria';
+import {AriaBreadcrumbsProps, useBreadcrumbs} from '@orthodoxauto/react-aria';
 import {Collection, CollectionBuilder, createLeafComponent} from '@react-aria/collections';
 import {CollectionProps, CollectionRendererContext} from './Collection';
 import {ContextValue, RenderProps, SlotProps, StyleProps, useContextProps, useRenderProps, useSlottedContext} from './utils';

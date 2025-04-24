@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaSearchFieldProps, useSearchField} from 'react-aria';
+import {AriaSearchFieldProps, useSearchField} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {ContextValue, Provider, RACValidation, removeDataAttributes, RenderProps, SlotProps, useContextProps, useRenderProps, useSlot, useSlottedContext} from './utils';
 import {createHideableComponent} from '@react-aria/collections';

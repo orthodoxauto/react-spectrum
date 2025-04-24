@@ -1,4 +1,4 @@
-import {AriaColorWheelOptions, useColorWheel} from 'react-aria';
+import {AriaColorWheelOptions, useColorWheel} from '@orthodoxauto/react-aria';
 import {ColorWheelContext} from './RSPContexts';
 import {ColorWheelState, useColorWheelState} from 'react-stately';
 import {ContextValue, Provider, RenderProps, SlotProps, StyleRenderProps, useContextProps, useRenderProps} from './utils';

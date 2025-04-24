@@ -4286,6 +4286,81 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@orthodoxauto/overlays@npm:^3.27.2, @orthodoxauto/overlays@workspace:packages/@react-aria/overlays":
+  version: 0.0.0-use.local
+  resolution: "@orthodoxauto/overlays@workspace:packages/@react-aria/overlays"
+  dependencies:
+    "@react-aria/focus": "npm:^3.20.2"
+    "@react-aria/i18n": "npm:^3.12.8"
+    "@react-aria/interactions": "npm:^3.25.0"
+    "@react-aria/ssr": "npm:^3.9.8"
+    "@react-aria/utils": "npm:^3.28.2"
+    "@react-aria/visually-hidden": "npm:^3.8.22"
+    "@react-stately/overlays": "npm:^3.6.15"
+    "@react-types/button": "npm:^3.12.0"
+    "@react-types/overlays": "npm:^3.8.14"
+    "@react-types/shared": "npm:^3.29.0"
+    "@swc/helpers": "npm:^0.5.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+    react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+  languageName: unknown
+  linkType: soft
+
+"@orthodoxauto/react-aria@npm:^3.39.2, @orthodoxauto/react-aria@workspace:packages/react-aria":
+  version: 0.0.0-use.local
+  resolution: "@orthodoxauto/react-aria@workspace:packages/react-aria"
+  dependencies:
+    "@babel/cli": "npm:^7.24.1"
+    "@babel/core": "npm:^7.24.3"
+    "@internationalized/string": "npm:^3.2.6"
+    "@orthodoxauto/overlays": "npm:^3.27.2"
+    "@react-aria/breadcrumbs": "npm:^3.5.23"
+    "@react-aria/button": "npm:^3.13.0"
+    "@react-aria/calendar": "npm:^3.8.0"
+    "@react-aria/checkbox": "npm:^3.15.4"
+    "@react-aria/color": "npm:^3.0.6"
+    "@react-aria/combobox": "npm:^3.12.2"
+    "@react-aria/datepicker": "npm:^3.14.2"
+    "@react-aria/dialog": "npm:^3.5.24"
+    "@react-aria/disclosure": "npm:^3.0.4"
+    "@react-aria/dnd": "npm:^3.9.2"
+    "@react-aria/focus": "npm:^3.20.2"
+    "@react-aria/gridlist": "npm:^3.12.0"
+    "@react-aria/i18n": "npm:^3.12.8"
+    "@react-aria/interactions": "npm:^3.25.0"
+    "@react-aria/label": "npm:^3.7.17"
+    "@react-aria/landmark": "npm:^3.0.2"
+    "@react-aria/link": "npm:^3.8.0"
+    "@react-aria/listbox": "npm:^3.14.3"
+    "@react-aria/menu": "npm:^3.18.2"
+    "@react-aria/meter": "npm:^3.4.22"
+    "@react-aria/numberfield": "npm:^3.11.13"
+    "@react-aria/progress": "npm:^3.4.22"
+    "@react-aria/radio": "npm:^3.11.2"
+    "@react-aria/searchfield": "npm:^3.8.3"
+    "@react-aria/select": "npm:^3.15.4"
+    "@react-aria/selection": "npm:^3.24.0"
+    "@react-aria/separator": "npm:^3.4.8"
+    "@react-aria/slider": "npm:^3.7.18"
+    "@react-aria/ssr": "npm:^3.9.8"
+    "@react-aria/switch": "npm:^3.7.2"
+    "@react-aria/table": "npm:^3.17.2"
+    "@react-aria/tabs": "npm:^3.10.2"
+    "@react-aria/tag": "npm:^3.5.2"
+    "@react-aria/textfield": "npm:^3.17.2"
+    "@react-aria/toast": "npm:^3.0.2"
+    "@react-aria/tooltip": "npm:^3.8.2"
+    "@react-aria/tree": "npm:^3.0.2"
+    "@react-aria/utils": "npm:^3.28.2"
+    "@react-aria/visually-hidden": "npm:^3.8.22"
+    "@react-types/shared": "npm:^3.29.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+    react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
+  languageName: unknown
+  linkType: soft
+
 "@parcel/bundler-default@npm:2.14.0":
   version: 2.14.0
   resolution: "@parcel/bundler-default@npm:2.14.0"
@@ -6435,9 +6510,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-aria/overlays@npm:^3.27.0, @react-aria/overlays@workspace:packages/@react-aria/overlays":
-  version: 0.0.0-use.local
-  resolution: "@react-aria/overlays@workspace:packages/@react-aria/overlays"
+"@react-aria/overlays@npm:^3.27.0":
+  version: 3.27.0
+  resolution: "@react-aria/overlays@npm:3.27.0"
   dependencies:
     "@react-aria/focus": "npm:^3.20.2"
     "@react-aria/i18n": "npm:^3.12.8"
@@ -6453,8 +6528,9 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-  languageName: unknown
-  linkType: soft
+  checksum: 10c0/2835dba32a055160341b0c04c8922c4cfb905d2c630508f9b6fc94844131e5359fd27e72f44b7d313339519285465cc6b08c720f2deb8511185d1bdd6c7b10f3
+  languageName: node
+  linkType: hard
 
 "@react-aria/parcel-resolver-optimize-locales@workspace:packages/dev/parcel-resolver-optimize-locales":
   version: 0.0.0-use.local
@@ -29254,13 +29330,14 @@ __metadata:
   dependencies:
     "@internationalized/date": "npm:^3.8.0"
     "@internationalized/string": "npm:^3.2.6"
+    "@orthodoxauto/overlays": "npm:^3.27.2"
+    "@orthodoxauto/react-aria": "npm:^3.39.2"
     "@react-aria/autocomplete": "npm:3.0.0-beta.2"
     "@react-aria/collections": "npm:3.0.0-rc.0"
     "@react-aria/dnd": "npm:^3.9.2"
     "@react-aria/focus": "npm:^3.20.2"
     "@react-aria/interactions": "npm:^3.25.0"
     "@react-aria/live-announcer": "npm:^3.4.2"
-    "@react-aria/overlays": "npm:^3.27.0"
     "@react-aria/ssr": "npm:^3.9.8"
     "@react-aria/toolbar": "npm:3.0.0-beta.15"
     "@react-aria/utils": "npm:^3.28.2"
@@ -29278,7 +29355,6 @@ __metadata:
     "@swc/helpers": "npm:^0.5.0"
     "@tailwindcss/postcss": "npm:^4.0.0"
     client-only: "npm:^0.0.1"
-    react-aria: "npm:^3.39.0"
     react-stately: "npm:^3.37.0"
     use-sync-external-store: "npm:^1.4.0"
   peerDependencies:
@@ -29287,12 +29363,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"react-aria@npm:^3.39.0, react-aria@workspace:packages/react-aria":
-  version: 0.0.0-use.local
-  resolution: "react-aria@workspace:packages/react-aria"
+"react-aria@npm:^3.39.0":
+  version: 3.39.0
+  resolution: "react-aria@npm:3.39.0"
   dependencies:
-    "@babel/cli": "npm:^7.24.1"
-    "@babel/core": "npm:^7.24.3"
     "@internationalized/string": "npm:^3.2.6"
     "@react-aria/breadcrumbs": "npm:^3.5.23"
     "@react-aria/button": "npm:^3.13.0"
@@ -29338,8 +29412,9 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
     react-dom: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0 || ^19.0.0-rc.1
-  languageName: unknown
-  linkType: soft
+  checksum: 10c0/cab3ce9a2ac3d292ba0539517951e3b43308bab6da982e4f22918c0ee6fe03d81a1d8cee7a1cd22e20ea4c352648c68cc8c72c60833f942279fef4c3a533743e
+  languageName: node
+  linkType: hard
 
 "react-axe@npm:^3.0.2":
   version: 3.3.0

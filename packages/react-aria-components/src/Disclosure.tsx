@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaDisclosureProps, useDisclosure, useFocusRing} from 'react-aria';
+import {AriaDisclosureProps, useDisclosure, useFocusRing} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {ContextValue, DEFAULT_SLOT, Provider, RenderProps, SlotProps, useContextProps, useRenderProps} from './utils';
 import {DisclosureGroupState, DisclosureState, DisclosureGroupProps as StatelyDisclosureGroupProps, useDisclosureGroupState, useDisclosureState} from 'react-stately';

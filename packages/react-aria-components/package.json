@@ -1,6 +1,6 @@
 {
-  "name": "react-aria-components",
-  "version": "1.8.0",
+  "name": "@orthodoxauto/react-aria-components",
+  "version": "1.8.5",
   "description": "A library of styleable components built using React Aria",
   "license": "Apache-2.0",
   "main": "dist/main.js",
@@ -39,13 +39,14 @@
   "dependencies": {
     "@internationalized/date": "^3.8.0",
     "@internationalized/string": "^3.2.6",
+    "@orthodoxauto/overlays": "^3.27.4",
+    "@orthodoxauto/react-aria": "^3.39.3",
     "@react-aria/autocomplete": "3.0.0-beta.2",
     "@react-aria/collections": "3.0.0-rc.0",
     "@react-aria/dnd": "^3.9.2",
     "@react-aria/focus": "^3.20.2",
     "@react-aria/interactions": "^3.25.0",
     "@react-aria/live-announcer": "^3.4.2",
-    "@react-aria/overlays": "^3.27.0",
     "@react-aria/ssr": "^3.9.8",
     "@react-aria/toolbar": "3.0.0-beta.15",
     "@react-aria/utils": "^3.28.2",
@@ -62,7 +63,6 @@
     "@react-types/table": "^3.12.0",
     "@swc/helpers": "^0.5.0",
     "client-only": "^0.0.1",
-    "react-aria": "^3.39.0",
     "react-stately": "^3.37.0",
     "use-sync-external-store": "^1.4.0"
   },

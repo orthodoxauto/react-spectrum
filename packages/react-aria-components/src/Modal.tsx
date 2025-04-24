@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaModalOverlayProps, DismissButton, Overlay, useIsSSR, useModalOverlay} from 'react-aria';
+import {AriaModalOverlayProps, DismissButton, Overlay, useIsSSR, useModalOverlay} from '@orthodoxauto/react-aria';
 import {ContextValue, Provider, RenderProps, SlotProps, useContextProps, useRenderProps} from './utils';
 import {DOMAttributes, forwardRefType, RefObject} from '@react-types/shared';
 import {filterDOMProps, mergeProps, mergeRefs, useEnterAnimation, useExitAnimation, useObjectRef, useViewportSize} from '@react-aria/utils';

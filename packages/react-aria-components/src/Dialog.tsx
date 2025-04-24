@@ -9,7 +9,7 @@
  * OF ANY KIND, either express or implied. See the License for the specific language
  * governing permissions and limitations under the License.
  */
-import {AriaDialogProps, useDialog, useId, useOverlayTrigger} from 'react-aria';
+import {AriaDialogProps, useDialog, useId, useOverlayTrigger} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {ContextValue, DEFAULT_SLOT, Provider, SlotProps, StyleProps, useContextProps, useRenderProps} from './utils';
 import {filterDOMProps, useResizeObserver} from '@react-aria/utils';

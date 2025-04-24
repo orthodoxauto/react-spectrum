@@ -1,4 +1,4 @@
-import {AriaColorAreaProps, useColorArea} from 'react-aria';
+import {AriaColorAreaProps, useColorArea} from '@orthodoxauto/react-aria';
 import {ColorAreaContext} from './RSPContexts';
 import {ColorAreaState, useColorAreaState} from 'react-stately';
 import {filterDOMProps} from '@react-aria/utils';

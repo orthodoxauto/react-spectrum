@@ -1,6 +1,6 @@
 {
-  "name": "react-aria",
-  "version": "3.39.0",
+  "name": "@orthodoxauto/react-aria",
+  "version": "3.39.4",
   "description": "Spectrum UI components in React",
   "license": "Apache-2.0",
   "main": "dist/main.js",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@internationalized/string": "^3.2.6",
+    "@orthodoxauto/overlays": "^3.27.4",
     "@react-aria/breadcrumbs": "^3.5.23",
     "@react-aria/button": "^3.13.0",
     "@react-aria/calendar": "^3.8.0",
@@ -59,7 +60,6 @@
     "@react-aria/menu": "^3.18.2",
     "@react-aria/meter": "^3.4.22",
     "@react-aria/numberfield": "^3.11.13",
-    "@react-aria/overlays": "^3.27.0",
     "@react-aria/progress": "^3.4.22",
     "@react-aria/radio": "^3.11.2",
     "@react-aria/searchfield": "^3.8.3",

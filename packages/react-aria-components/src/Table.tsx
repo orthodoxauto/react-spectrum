@@ -9,7 +9,7 @@ import {ContextValue, DEFAULT_SLOT, DOMProps, Provider, RenderProps, ScrollableP
 import {DisabledBehavior, DraggableCollectionState, DroppableCollectionState, MultipleSelectionState, Node, SelectionBehavior, SelectionMode, SortDirection, TableState, useMultipleSelectionState, useTableColumnResizeState, useTableState} from 'react-stately';
 import {DragAndDropContext, DropIndicatorContext, DropIndicatorProps, useDndPersistedKeys, useRenderDropIndicator} from './DragAndDrop';
 import {DragAndDropHooks} from './useDragAndDrop';
-import {DraggableItemResult, DragPreviewRenderer, DropIndicatorAria, DroppableCollectionResult, FocusScope, ListKeyboardDelegate, mergeProps, useFocusRing, useHover, useLocale, useLocalizedStringFormatter, useTable, useTableCell, useTableColumnHeader, useTableColumnResize, useTableHeaderRow, useTableRow, useTableRowGroup, useTableSelectAllCheckbox, useTableSelectionCheckbox, useVisuallyHidden} from 'react-aria';
+import {DraggableItemResult, DragPreviewRenderer, DropIndicatorAria, DroppableCollectionResult, FocusScope, ListKeyboardDelegate, mergeProps, useFocusRing, useHover, useLocale, useLocalizedStringFormatter, useTable, useTableCell, useTableColumnHeader, useTableColumnResize, useTableHeaderRow, useTableRow, useTableRowGroup, useTableSelectAllCheckbox, useTableSelectionCheckbox, useVisuallyHidden} from '@orthodoxauto/react-aria';
 import {filterDOMProps, isScrollable, mergeRefs, useLayoutEffect, useObjectRef, useResizeObserver} from '@react-aria/utils';
 import {GridNode} from '@react-types/grid';
 // @ts-ignore

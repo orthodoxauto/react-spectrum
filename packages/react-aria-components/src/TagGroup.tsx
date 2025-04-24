@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaTagGroupProps, useFocusRing, useHover, useTag, useTagGroup} from 'react-aria';
+import {AriaTagGroupProps, useFocusRing, useHover, useTag, useTagGroup} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {Collection, CollectionBuilder, createLeafComponent} from '@react-aria/collections';
 import {CollectionProps, CollectionRendererContext, DefaultCollectionRenderer, ItemRenderProps, usePersistedKeys} from './Collection';

@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaSelectProps, HiddenSelect, useFocusRing, useLocalizedStringFormatter, useSelect} from 'react-aria';
+import {AriaSelectProps, HiddenSelect, useFocusRing, useLocalizedStringFormatter, useSelect} from '@orthodoxauto/react-aria';
 import {ButtonContext} from './Button';
 import {Collection, Node, SelectState, useSelectState} from 'react-stately';
 import {CollectionBuilder} from '@react-aria/collections';

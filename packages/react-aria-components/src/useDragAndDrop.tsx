@@ -30,7 +30,7 @@ import {
   useDropIndicator,
   useDroppableCollection,
   useDroppableItem
-} from 'react-aria';
+} from '@orthodoxauto/react-aria';
 import {DraggableCollectionProps, DroppableCollectionProps, Key, RefObject} from '@react-types/shared';
 import {
   DraggableCollectionState,

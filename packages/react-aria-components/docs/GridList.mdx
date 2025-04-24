@@ -1837,7 +1837,7 @@ This example consumes from `CheckboxContext` in an existing styled checkbox comp
 import type {CheckboxProps} from 'react-aria-components';
 import {CheckboxContext, useContextProps} from 'react-aria-components';
 import {useToggleState} from 'react-stately';
-import {useCheckbox} from 'react-aria';
+import {useCheckbox} from '@orthodoxauto/react-aria';
 
 const MyCustomCheckbox = React.forwardRef((props: CheckboxProps, ref: React.ForwardedRef<HTMLInputElement>) => {
   // Merge the local props and ref with the ones provided via context.

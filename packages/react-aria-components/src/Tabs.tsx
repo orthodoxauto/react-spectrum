@@ -11,7 +11,7 @@
  */
 
 import {AriaLabelingProps, forwardRefType, HoverEvents, Key, LinkDOMProps, RefObject} from '@react-types/shared';
-import {AriaTabListProps, AriaTabPanelProps, mergeProps, Orientation, useFocusRing, useHover, useTab, useTabList, useTabPanel} from 'react-aria';
+import {AriaTabListProps, AriaTabPanelProps, mergeProps, Orientation, useFocusRing, useHover, useTab, useTabList, useTabPanel} from '@orthodoxauto/react-aria';
 import {Collection, CollectionBuilder, createHideableComponent, createLeafComponent} from '@react-aria/collections';
 import {CollectionProps, CollectionRendererContext, DefaultCollectionRenderer, usePersistedKeys} from './Collection';
 import {ContextValue, Provider, RenderProps, SlotProps, StyleRenderProps, useContextProps, useRenderProps, useSlottedContext} from './utils';

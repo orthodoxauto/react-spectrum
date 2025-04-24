@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaSliderProps, AriaSliderThumbProps, HoverEvents, mergeProps, Orientation, useFocusRing, useHover, useNumberFormatter, useSlider, useSliderThumb, VisuallyHidden} from 'react-aria';
+import {AriaSliderProps, AriaSliderThumbProps, HoverEvents, mergeProps, Orientation, useFocusRing, useHover, useNumberFormatter, useSlider, useSliderThumb, VisuallyHidden} from '@orthodoxauto/react-aria';
 import {ContextValue, Provider, RenderProps, SlotProps, useContextProps, useRenderProps, useSlot, useSlottedContext} from './utils';
 import {filterDOMProps} from '@react-aria/utils';
 import {forwardRefType, RefObject} from '@react-types/shared';

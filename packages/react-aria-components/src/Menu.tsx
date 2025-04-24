@@ -10,7 +10,7 @@
  * governing permissions and limitations under the License.
  */
 
-import {AriaMenuProps, FocusScope, mergeProps, useHover, useMenu, useMenuItem, useMenuSection, useMenuTrigger, useSubmenuTrigger} from 'react-aria';
+import {AriaMenuProps, FocusScope, mergeProps, useHover, useMenu, useMenuItem, useMenuSection, useMenuTrigger, useSubmenuTrigger} from '@orthodoxauto/react-aria';
 import {BaseCollection, Collection, CollectionBuilder, createBranchComponent, createLeafComponent} from '@react-aria/collections';
 import {MenuTriggerProps as BaseMenuTriggerProps, Collection as ICollection, Node, RootMenuTriggerState, TreeState, useMenuTriggerState, useSubmenuTriggerState, useTreeState} from 'react-stately';
 import {CollectionProps, CollectionRendererContext, ItemRenderProps, SectionContext, SectionProps, usePersistedKeys} from './Collection';
